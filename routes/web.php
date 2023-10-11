@@ -11,6 +11,7 @@ Route::get('/', 'HomeController@index')->name('homeProduct');
 //Route::get('/start', 'StartController@index')->name('startProduct');;
 
 Route::get('/secret', 'HomeController@secret')->middleware('secretpage');
+// /secret жоступ только с 127.0.0.1
 /*
 Route::get('/secret', function(){
 	return 'secret! only for Localhost';
