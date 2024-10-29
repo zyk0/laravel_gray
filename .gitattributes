@@ -1,5 +1,6 @@
 *.php linguist-detectable=true
 *.blade.php linguist-language=PHP
+*.blade linguist-detectable=false
 
 * text=auto
 *.css linguist-vendored
